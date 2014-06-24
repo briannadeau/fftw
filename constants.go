@@ -67,6 +67,7 @@ func (d Direction) String() string {
 	default:
 		return "Unknown"
 	}
+	return "Unknown"
 }
 
 // Specifies locality of data for transform.
@@ -89,4 +90,5 @@ func (l Locality) String() string {
 	default:
 		return "Unknown"
 	}
+	return "Unknown"
 }
